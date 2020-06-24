@@ -3,13 +3,30 @@ import datetime
 class lesson:
 
     def __init__(self):
-        date = None   #DateTime
-        length = None   #int
-        online = None   #boolean
-        studentName = None  #string
-        subject = None  #string
-        rate = None     #int
-        pay = None      #double
-        earned = None   #double
-        mileage = None  #double
-        
+        self.date = None   #DateTime
+        self.length = None   #int
+        self.online = None   #boolean
+        self.studentName = None  #string
+        self.subject = None  #string
+        self.rate = None     #int
+        self.pay = None      #double
+        self.earned = None   #double
+        self.mileage = None  #double
+    
+    def setDate(self,date):
+        self.date = date
+    
+    def setLength(self,length):
+        self.length = length
+
+    def setOnline(self,online):
+        self.online = online
+
+    def setSubject(self,subject):
+        self.subject = subject
+
+    def setRate(self,rate):
+        self.rate = rate
+    
+    def setEarned(self,earned):
+        self.earned = earned
